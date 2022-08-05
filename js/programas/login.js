@@ -18,7 +18,7 @@ export function loginForm(){
         let userInput = document.querySelector("#inputUsuario").value;
         let passwordInput = document.querySelector("#inputContrasenna").value;
 
-        for(let i = 0; i <= 6; i++){
+        for(let i = 0; i <= 7 i++){
             if(userInput == users[i][1]){
                 usuarioCorrecto();
                 if(passwordInput == users[i][2]){
